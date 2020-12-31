@@ -14,3 +14,5 @@ and insert to SQL Server
 4: [Scrape the Betfar Promo files and insert to SQLS](https://github.com/Deruzala/Betfair-Data-Scraper/blob/main/Betfair-Data-Scraper.py)
 
 The script is pliable allowing the user to select either UK, IRE, AUS Horse Racing data - both win and place markets 
+
+Run the .py script via your favourite IDE.When prompted enter the start / end date of the data you would like to import
