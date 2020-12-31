@@ -59,7 +59,7 @@ sql_insert ='''
 '''
 
 
-# Dates are converted to int. eg 05-01-2010converts to 20110805
+# Dates are converted to int. eg 05-01-2010converts to 20100105
 Date = input("Enter the Start DATE (DD-MM-YYYY) : ")                      #Start Date
 Date = "".join(Date.split('-'))
 Date = int(Date[4:] + Date[2:4] + Date[:2])
