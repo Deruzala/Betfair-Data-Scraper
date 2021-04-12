@@ -21,8 +21,8 @@ When prompted enter the start / end date of the data you would like to import
 
 ----
 
-- The [Traded Volumes](https://github.com/Deruzala/Betfair-Data-Scraper/blob/main/TradedVolumes.sql) file creates a view to analyse traded volumes
+- [Traded Volumes](https://github.com/Deruzala/Betfair-Data-Scraper/blob/main/TradedVolumes.sql) file creates a view to analyse traded volumes
 
 - [Group Traded Volumes](https://github.com/Deruzala/Betfair-Data-Scraper/blob/main/group-traded-volumes.sql) breaks down traded volumes by year, month & weekday 
 
-- The [Returns & Liability](https://github.com/Deruzala/Betfair-Data-Scraper/blob/main/Returns.sql) script creates a view to show back & lay returns including liability at BSP
+- [Returns & Liability](https://github.com/Deruzala/Betfair-Data-Scraper/blob/main/Returns.sql) script creates a view to show back & lay returns including liability at BSP
