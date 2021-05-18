@@ -4,7 +4,7 @@ SELECT
 	   FORMAT(SUM(PPTRADEDVOL),'0.00') as PreVol,
 	   FORMAT(SUM(IPTRADEDVOL),'0.00') as IPvol
 
-  FROM [NRaceHistory].[dbo].[volumes]
+  FROM [BetfairData].[dbo].[volumes]
   group by YEAR
   order by YEAR
 
@@ -14,7 +14,7 @@ SELECT
 	   FORMAT(SUM(PPTRADEDVOL),'0.00') as PreVol,
 	   FORMAT(SUM(IPTRADEDVOL),'0.00') as IPvol
 
-  FROM [NRaceHistory].[dbo].[volumes]
+  FROM [BetfairData].[dbo].[volumes]
   group by MONTH
   order by CASE
 		  WHEN MONTH = 'January'	THEN 1
@@ -36,7 +36,7 @@ SELECT
 	   COUNT(DISTINCT EVENT_ID) AS Races,
 	   FORMAT(SUM(PPTRADEDVOL),'0.00') as PreVol,
 	   FORMAT(SUM(IPTRADEDVOL),'0.00') as IPvol
-  FROM [NRaceHistory].[dbo].[volumes]
+  FROM [BetfairData].[dbo].[volumes]
   group by DAY
   order by CASE
 		  WHEN Day = 'Monday'		THEN 1
